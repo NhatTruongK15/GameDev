@@ -13,8 +13,24 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="FrameWork">
+      <UniqueIdentifier>{edf1ae34-f34e-4e53-856b-d7e0b01d426e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Utilities">
+      <UniqueIdentifier>{1de306b0-12bf-4363-bcb8-572a7b4e47d6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Transform.h">
+      <Filter>FrameWork\Utilities</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Transform.cpp">
+      <Filter>FrameWork\Utilities</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
